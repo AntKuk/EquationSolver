@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Quadratic Equation</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/functions.js"></script>
+</head>
+<body>
+<h1>
+    Solving the quadratic equation
+</h1>
+<div class="style1">
+    <p>
+        Enter the coefficients
+        <span class="bold">A, B and C </span>for the <span class="bold">Ax<sup>2</sup>+Bx+C=0</span>
+        equation.
+    </p>
+</div>
+
+<form onsubmit="sendTo(event)">
+    A: <input type="number" name="a" id="coefA" value="0">
+    B: <input type="number" name="b" id="coefB" value="0" required>
+    C: <input type="number" name="c" id="coefC" value="0">
+    <input type="submit" id="btn" value="Solve!">
+</form>
+
+<table>
+    <thead>
+    <tr>
+        <th>A</th>
+        <th>B</th>
+        <th>C</th>
+        <th>x1</th>
+        <th>x2</th>
+    </tr>
+    </thead>
+    <tbody id="table" onclick="removeRow(event)">
+    </tbody>
+</table>
+
+</body>
+</html>

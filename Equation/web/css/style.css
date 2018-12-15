@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(201, 201, 201);
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+form {
+    margin: 40px;
+}
+
+#btn {
+    margin: 10px;
+    padding: 10px;
+    color:blue;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}
+input {
+    margin-right: 15px;
+    text-align: center;
+}
+table {
+    text-align: center;
+    background-color: rgba(9, 216, 243, 0.952);
+    width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid black;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(245, 194, 128, 0.945);
+}
+tbody tr:nth-child(even) {
+    background-color: antiquewhite;
+}
+
